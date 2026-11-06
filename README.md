@@ -1,30 +1,74 @@
-# 小狗账本 0.1.9
+# 小狗账本
 
-开发接手请先阅读 [开发交接](HANDOFF.md)，其中包含环境配置、源码入口、数据约定和升级签名说明。APK、截图与原始源码包见 [v0.1.9 版本附件](https://github.com/chenchangxiang-330/Puppy-Ledger/releases/tag/v0.1.9)。
+一款有小狗陪伴的离线安卓记账应用。记下每天的收入与支出，看看钱花在哪里，再把一天的流水生成一张小票。
 
-本版基于 0.1.8+9，软件版本为 0.1.9+10。实际 Release APK 支持 Android 7.0 及以上的 arm64 手机和 x86_64 安卓环境。应用 ID 和签名与 0.1.8 一致，可直接覆盖安装。
+账目保存在本机，支持 ZIP 备份与恢复。奶油黄、蜜桃粉、草地绿三套主题，让日常记账多一点温暖。
 
-## 使用
+[下载 Android 安装包](https://github.com/chenchangxiang-330/Puppy-Ledger/releases/tag/v0.1.9) · [使用说明](docs/USAGE.md) · [开发交接](HANDOFF.md)
 
-1. 从首页选择某天，再点「记一笔」补记。支出填写消费日期与消费时间，收入填写收入日期与到账时间。新记录默认使用手机本地当前分钟，时间选择器采用 24 小时制。每日流水按实际时间从晚到早排列，旧记录的空时间排在有时间的记录之后。
-2. 在「统计 → 日」点选 00–23 时中的一格，查看该小时的金额和逐笔流水。收入与支出分别统计；历史无时间的账目保留在「未记录时间」，并计入当日累计。周、月继续按日期展示。
-3. 分类彩条从圆润的左端开始。卡片、输入框、按钮、弹窗和面板使用 Flutter 的连续曲率轮廓，收支头像沿用原图圆形裁切。
-4. 点击每日明细旁的「生成小票」。纸条显示当天全部账目，跟随当前主题，可保存完整 PNG 或通过安卓分享菜单分享。减少动态效果时直接展示。保存长图将打开系统文件选择器，可选下载或图片目录。
-5. 在安卓桌面长按空白处，进入「小组件／微件 → 小狗账本」。快捷记账显示最多四个已启用且常用的支出分类；概览显示今日收支及本月结余；日历标出当月有流水的日期。应用关闭时也能从桌面进入。
+## 界面预览
 
-## 数据兼容
+### 三套主题
 
-仍使用原 SQLite 路径。数据库由 v2 升至 v3，原记录在事务内新增可空的 `occurredMinute`，其取值为 0 至 1439 的本地分钟数。空值表示旧数据没有发生时间，0 表示真实午夜。v1 的旧退款转换规则继续有效；新备份 v3 仍能导入 v1/v2 的 ZIP。
+| 奶油黄 | 蜜桃粉 | 草地绿 |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/03-home-lemon.png" width="240" alt="奶油黄主题首页，展示月结余、收入支出与每日流水"> | <img src="docs/screenshots/03-home-peach.png" width="240" alt="蜜桃粉主题首页"> | <img src="docs/screenshots/03-home-sage.png" width="240" alt="草地绿主题首页"> |
 
-0.1.8 可直接覆盖升级。若手机上安装的是其他签名的 APK，可在旧版导出完整备份，确认 ZIP 已保存，再卸载旧版、安装新版、从备份恢复。
+### 记账与每日小票
 
-## 复现
+填写金额、分类和发生时间，保存每一笔日常。当天的完整流水可以生成小票，保存为长图或通过系统分享。
+
+| 记一笔 | 每日收支小票 |
+| :---: | :---: |
+| <img src="docs/screenshots/01-occurrence-form.png" width="280" alt="记账表单，包含收支切换、金额、分类、日期、时间与备注"> | <img src="docs/screenshots/04-receipt-printer.png" width="280" alt="每日收支小票，可保存长图和分享"> |
+
+### 收支统计与安卓桌面组件
+
+按日、周、月查看收支；日统计可以点选小时查看流水。桌面组件提供快捷记账、收支概览和记账日历。
+
+| 按小时查看每日收支 | 三种安卓桌面组件 |
+| :---: | :---: |
+| <img src="docs/screenshots/01-hour-expense.png" width="320" alt="日统计中的小时支出图表与逐笔明细"> | <img src="docs/screenshots/05-android-widgets.png" width="280" alt="安卓组件展示：快捷记账、收支概览、记账日历"> |
+
+截图使用演示账目；桌面组件图来自 Android 11 模拟器中的组件宿主。
+
+## 主要功能
+
+- **日常收支**：记录收入与支出，支持分类、备注、发生日期和时间，以及账目编辑和删除撤销。
+- **账目回顾**：按日期浏览流水，筛选收入或支出，查看每日收支和本月结余。
+- **收支统计**：按日、周、月汇总；日统计可展开每个小时的逐笔记录。
+- **每日小票**：将当天完整流水生成主题小票，保存 PNG 长图或分享。
+- **桌面组件**：快捷记账、收支概览、记账日历，方便从桌面进入应用。
+- **个性化与备份**：切换三套主题、调整小狗分工、管理分类，导出或恢复完整 ZIP 备份。
+
+## 下载与安装
+
+当前版本为 **0.1.9+10**，支持 **Android 7.0 及以上**，安装包包含 `arm64-v8a` 和 `x86_64` 架构。
+
+前往 [v0.1.9 版本页面](https://github.com/chenchangxiang-330/Puppy-Ledger/releases/tag/v0.1.9)，下载 `puppy-ledger-0.1.9-release.apk` 安装。页面同时保留原始源码包、完整截图包和交接文档。
+
+升级已有安装需要保持签名一致。更换签名前，请先导出账本备份；具体步骤见 [升级说明](HANDOFF.md#5-下一版如何覆盖安装)。
+
+## 继续开发
+
+项目使用 **Flutter、Dart 与 SQLite**，源码位于仓库根目录。完整环境配置、源码入口、数据约定与签名说明见 [HANDOFF.md](HANDOFF.md)。
 
 ```sh
 flutter pub get --enforce-lockfile
 flutter analyze
 flutter test
+flutter run --flavor linepuppy
+```
+
+构建 Android Release APK：
+
+```sh
 flutter build apk --release --flavor linepuppy --target-platform android-arm64,android-x64
 ```
 
-`docs/VALIDATION.md` 和 `docs/evidence` 记录验证结果。`tool/release_preview_test.dart` 使用独立 SQLite 数据渲染截图；示例账目不随应用安装。`tool/android_widget_host` 是单独的安卓验证宿主，不打包进生产 APK。
+- [使用与数据兼容](docs/USAGE.md)
+- [构建环境](docs/TOOLCHAIN.md)
+- [验证记录](docs/VALIDATION.md)
+- [素材说明](docs/ASSETS.md)
+
+素材来源与使用记录见素材说明，角色素材为非官方演绎。
