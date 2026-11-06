@@ -1,0 +1,18 @@
+[0.001s][warning][perf,memops] Cannot use file /tmp/hsperfdata_agent/7 because it is locked by another process (errno = 11)
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Android Debug, O=Android, C=US
+Signer #1 certificate SHA-256 digest: e533dc8123fdade572b142b95fd6503e1e09eac6f73be3f542ac98ce4ad40d4a
+Signer #1 certificate SHA-1 digest: 79770519b3fb349da8fa5e67f26b7be0b4995e5b
+Signer #1 certificate MD5 digest: a52c3a53605d12106753962c929665c5
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 841a886d71b3d8ed6cbf6d051fc1787862dee6a65568d9988adc5649812d6dff
+Signer #1 public key SHA-1 digest: 99aaf946e703a5551c0e7ee68e1621d56d38873a
+Signer #1 public key MD5 digest: c6b277e98ac2f5c7fd4664b281fd1106

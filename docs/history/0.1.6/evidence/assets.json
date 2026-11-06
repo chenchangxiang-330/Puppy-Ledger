@@ -1,0 +1,18 @@
+{
+  "assets/illustrations/puppy_pair.png": {
+    "sha256": "aa47429c79f0b0619105c56dcd1944be990e35c9a1502ebdfc9f37cbc03e09d6",
+    "unchanged_from_015": true
+  },
+  "assets/illustrations/puppy_peach.png": {
+    "sha256": "a9b2e5825fc95066e339d4b950b465fd12674c9a96cf4607fd72ed4666aa65e1",
+    "unchanged_from_015": true
+  },
+  "assets/illustrations/puppy_sage.png": {
+    "sha256": "adf0904ef2b86e64ac3c0f0519c41ac9d3e7e7c9ba3042f5e12f54451beb50e9",
+    "unchanged_from_015": true
+  },
+  "assets/branding/launcher_original.png": {
+    "sha256": "4dedeb4bb37e05de2df438a4a75a5f8838cde360f46894acc34ae71722d83c16",
+    "unchanged_from_015": true
+  }
+}

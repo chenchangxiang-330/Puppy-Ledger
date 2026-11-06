@@ -1,0 +1,10 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/test/widget_links_test.dart
+00:00 +0: <workspace>/project/puppy_ledger/test/widget_links_test.dart: (setUpAll)
+00:00 +0: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:00 +1: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:01 +2: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:03 +3: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:03 +4: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:03 +5: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:04 +6: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: (tearDownAll)
+00:04 +6: All tests passed!

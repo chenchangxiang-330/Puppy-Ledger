@@ -1,0 +1,60 @@
+小狗账本 0.1.0+1 Android 安装/运行尝试
+记录日期：2026-11-03（北京时间）
+
+环境
+- 云端无 /dev/kvm，不能使用 KVM 硬件加速。
+- Android Emulator 37.2.13.0；API 35 Google APIs x86_64 系统镜像。
+- adb 1.0.41，Platform Tools 37.0.1。
+- 720×1280、320dpi、1536MB RAM、2核；SwiftShader、-accel off。
+- ro.product.cpu.abilist 实际返回 x86_64,arm64-v8a。
+- 使用独立 AVD puppy_test，没有真机接入，也没有操作用户真实账本。
+
+实际执行的主要命令（路径在当前云端工作区）
+ANDROID_SDK_ROOT=/workspace/scratch/ea74cfb99cac/tooling/android-sdk
+ANDROID_AVD_HOME=/workspace/scratch/ea74cfb99cac/emulator/avd
+emulator -avd puppy_test -no-window -no-audio -no-boot-anim -no-snapshot \
+  -gpu swiftshader_indirect -accel off -memory 1536 -cores 2 \
+  -camera-back none -camera-front none -no-metrics
+adb wait-for-device
+adb devices
+adb shell -n getprop ro.product.cpu.abilist
+adb shell -n getprop sys.boot_completed
+adb shell -n service check package
+
+首次启动与 Gradle 构建并行时内存压力较大，因此停止模拟器、保留 AVD 数据，先完成 APK。
+构建完成后基于保留 AVD 再次启动，以 timeout -k 10 300 控制约5分钟窗口；
+各次 adb 等待另设 5—55 秒上限。第二次 ADB 已上线，但系统服务初始化仍未完成。
+22:48:02 包管理服务首次检测返回 Service package: found；sys.boot_completed 尚未返回1。
+
+实际安装命令
+ timeout 22 adb install --no-streaming -r \
+   /workspace/scratch/ea74cfb99cac/outputs/puppy_ledger-0.1.0-debug-arm64.apk
+
+安装结果
+- APK 确实完成推送：84735449 bytes，adb 报告约4.989秒。
+- 安装命令未返回 Success，退出码255。
+- Android PackageInstallerService 在建立安装会话时返回：
+  java.lang.NullPointerException: Attempt to invoke virtual method
+  'java.util.List android.os.storage.StorageManager.getVolumes()'
+  on a null object reference
+  at com.android.internal.content.InstallLocationUtils.resolveInstallVolume
+- 当时 StorageManager 尚未就绪，属于模拟器系统尚在启动的环境错误；
+  不是本 App 已运行后发生的异常，也不能据此断言 APK 安装包本身有问题。
+- 后续模拟器达到预设时间自动停止。22:48:52 adb devices 返回空列表，
+  再执行 pm path com.example.puppy_ledger 返回 no devices/emulators found。
+  未为延长测试而再次重启模拟器。
+
+验证状态（与单元/组件测试、APK构建结果分开）
+- 最终交付 APK 向模拟器传输：已完成。
+- Android 安装成功：未验证通过；上述安装尝试失败，不能把推送成功称为安装成功。
+- App 启动：未执行。脚本仅在安装退出码0时执行 am start，本次条件未满足。
+- App 内新增、修改、删除、统计、关闭进程后数据保留：未在设备上验证。
+- 系统相册/文件选择、图片重启保留、导出备份和覆盖恢复：未在设备上验证。
+- 真机体验：待验证。
+- App 运行截图：没有。未生成或伪造运行截图。
+
+结论
+APK 构建成功；安装和真机体验待验证。
+本环境确有软件模拟器，但无硬件加速，限时内未完成 Android 系统初始化。
+金额、统计、SQLite、备份恢复、组件交互的已运行测试见其他验证记录，
+这些自动化测试不能替代安卓系统文件选择器和真实手机的安装体验验收。

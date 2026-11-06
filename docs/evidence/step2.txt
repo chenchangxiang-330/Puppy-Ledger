@@ -1,0 +1,11 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/test/category_bar_test.dart
+00:00 +0: <workspace>/project/puppy_ledger/test/category_bar_test.dart: full, short and empty category bars have rounded ends and no protruding marker
+00:00 +1: <workspace>/project/puppy_ledger/test/daily_views_test.dart: (setUpAll)
+00:00 +1: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:02 +2: <workspace>/project/puppy_ledger/test/daily_views_test.dart: calendar opens on demand, crosses month and returns to today
+00:03 +3: <workspace>/project/puppy_ledger/test/daily_views_test.dart: daily bars share the bottom baseline and accumulate the selected kind only
+00:03 +4: <workspace>/project/puppy_ledger/test/daily_views_test.dart: 320px at double text size: date, filter, long amounts and chart stay usable
+00:04 +5: <workspace>/project/puppy_ledger/test/daily_views_test.dart: three themes share the data; a long month scrolls to the last day including empty income slots
+00:05 +6: <workspace>/project/puppy_ledger/test/daily_views_test.dart: current range preserves booked future dates, and historical months retain all empty slots
+00:05 +7: <workspace>/project/puppy_ledger/test/daily_views_test.dart: (tearDownAll)
+00:05 +7: All tests passed!

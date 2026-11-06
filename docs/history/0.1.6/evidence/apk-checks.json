@@ -1,0 +1,18 @@
+{
+  "apk_bytes": 22156423,
+  "apk_sha256": "aa3acf7e9c60b3458a25801ce90eb0486905c39ab739b5e57ce5587731ea5e20",
+  "package": "com.example.puppy_ledger.linepuppy",
+  "version_name": "0.1.6",
+  "version_code": 7,
+  "signature_sha256": "bcc788fa8c54ea40584ea8a98b6eb9667e57e5e6c36a69ee4748f705663ee278",
+  "same_signature_as_015": true,
+  "zip_crc": "passed",
+  "zipalign_16kb": "passed",
+  "bundled_theme_images_match_source_and_015": true,
+  "launcher_images_unchanged_from_015": true,
+  "dependencies_unchanged_from_015": true,
+  "internet_permission": false,
+  "android_devices_connected": 0,
+  "real_device_upgrade_tested": false,
+  "automated_tests_passed": 68
+}

@@ -1,0 +1,42 @@
+00:00 +0: loading /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart
+00:00 +0: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: Integer money 0.10 + 0.20 is exactly 0.30
+00:00 +1: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: Integer money Invalid values are rejected without rounding
+00:00 +2: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: Business dates and calendar periods Strict date parses and preserves the local calendar date
+00:00 +3: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: Business dates and calendar periods Weeks are Monday–Sunday, including the year boundary
+00:00 +4: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: Business dates and calendar periods Natural month includes leap day; month navigation clamps day
+00:00 +5: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: Business dates and calendar periods Cross-month refunds affect the refund date and can be negative
+00:00 +6: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: SQLite isolated database First launch is empty with seven default categories
+00:00 +7: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: SQLite isolated database Create, historical edit, refund and delete update real totals
+00:00 +8: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: SQLite isolated database Restart preserves entries, categories and settings
+00:00 +9: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: SQLite isolated database Deactivation preserves references; invalid and duplicate categories rejected
+00:00 +10: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: SQLite isolated database Snapshot pre-validation leaves the original ledger untouched
+00:00 +11: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/core_test.dart: SQLite isolated database SQLite failure after deletes rolls back the entire restore
+00:00 +12: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:00 +13: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +14: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +15: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +16: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +17: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +18: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +19: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +20: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +21: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +22: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +23: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +24: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +25: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +26: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +27: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +28: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +29: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +30: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +31: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +32: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +33: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +34: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +35: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +36: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +37: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:04 +38: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: 360px large type tabs and keyboard form remain scrollable
+00:04 +39: /workspace/scratch/ea74cfb99cac/puppy_ledger/test/ui_test.dart: (tearDownAll)
+00:04 +39: All tests passed!

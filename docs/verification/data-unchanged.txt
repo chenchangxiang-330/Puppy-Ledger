@@ -1,0 +1,8 @@
+Byte-for-byte unchanged from 0.1.1:
+pubspec.lock
+lib/core/backup.dart
+lib/core/controller.dart
+lib/core/logic.dart
+lib/core/models.dart
+lib/core/store.dart
+lib/core/zip_guard.dart

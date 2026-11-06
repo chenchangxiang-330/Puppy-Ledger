@@ -1,0 +1,3 @@
+Running Gradle task 'assembleLinepuppyDebug'...                 
+Running Gradle task 'assembleLinepuppyDebug'...                    33.3s
+✓ Built build/app/outputs/flutter-apk/app-linepuppy-debug.apk

@@ -1,0 +1,3 @@
+00:00 +0: loading /workspace/scratch/55345c26cc14/project/puppy_ledger/tool/preview_test.dart
+00:00 +0: render four screens with isolated sample entries
+00:02 +1: All tests passed!

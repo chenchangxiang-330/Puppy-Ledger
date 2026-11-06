@@ -1,0 +1,91 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/test/ui_test.dart
+00:00 +0: <workspace>/project/puppy_ledger/test/ui_test.dart: (setUpAll)
+00:00 +0: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:00 +1: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +2: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +3: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +4: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +5: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +6: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +7: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +8: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +9: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:03 +10: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:03 +11: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:04 +12: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +13: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +13: <workspace>/project/puppy_ledger/test/income_migration_test.dart: failure after old tables are dropped rolls back schema, rows and user_version; retry works
+error SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, index entries_date already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX entries_date ON entries(date), parameters: }) DatabaseException(SqliteException(1): while executing, index entries_date already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX entries_date ON entries(date), parameters: ) sql 'CREATE INDEX entries_date ON entries(date)' {details: {database: {path: /tmp/puppy_v2_PTQGYF/failure.db, id: 5, readOnly: false, singleInstance: true}}} during open, closing...
+00:04 +14: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +15: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +16: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +17: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +18: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +19: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +20: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +21: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:04 +22: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:05 +23: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:05 +24: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:05 +25: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:05 +26: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:05 +27: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:05 +28: <workspace>/project/puppy_ledger/test/daily_views_test.dart: same day: 100 income / 34 expense; filters leave day and month totals intact
+00:05 +29: <workspace>/project/puppy_ledger/test/ui_test.dart: pictured theme selection updates artwork and survives database reopen
+00:05 +30: <workspace>/project/puppy_ledger/test/ui_test.dart: pictured theme selection updates artwork and survives database reopen
+00:05 +31: <workspace>/project/puppy_ledger/test/ui_test.dart: pictured theme selection updates artwork and survives database reopen
+00:05 +32: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:06 +33: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:06 +34: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:07 +35: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:07 +36: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:07 +37: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:07 +38: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:07 +39: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:07 +40: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:07 +41: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:07 +42: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:07 +43: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +44: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +45: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +46: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +47: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +48: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +49: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +50: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +51: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +52: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +53: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +54: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +55: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +56: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +57: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +58: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +59: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +60: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +61: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +62: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +63: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +64: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +65: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +66: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +67: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +68: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:11 +69: <workspace>/project/puppy_ledger/test/interaction_test.dart: three dog interactions, rapid taps, bubble expiry and page exit
+00:12 +70: <workspace>/project/puppy_ledger/test/income_ui_test.dart: type switches keep fields and reset category; save updates monthly totals with assigned dog
+00:12 +71: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:12 +72: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:12 +73: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:13 +74: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:13 +75: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:14 +76: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:14 +77: <workspace>/project/puppy_ledger/test/income_ui_test.dart: exchange roles immediately updates forms and success for all themes, preserving rows
+00:14 +78: <workspace>/project/puppy_ledger/test/income_ui_test.dart: exchange roles immediately updates forms and success for all themes, preserving rows
+00:15 +79: <workspace>/project/puppy_ledger/test/interaction_test.dart: actual write failure preserves form, no celebration, retry saves once and selects saved day
+00:15 +80: <workspace>/project/puppy_ledger/test/income_ui_test.dart: 320px 2x type: income, roles, category manager and statistics remain usable
+00:15 +81: <workspace>/project/puppy_ledger/test/income_ui_test.dart: 320px 2x type: income, roles, category manager and statistics remain usable
+00:15 +82: <workspace>/project/puppy_ledger/test/income_ui_test.dart: 320px 2x type: income, roles, category manager and statistics remain usable
+00:16 +83: <workspace>/project/puppy_ledger/test/income_ui_test.dart: (tearDownAll)
+00:16 +83: All tests passed!

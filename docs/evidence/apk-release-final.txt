@@ -1,0 +1,4 @@
+Running Gradle task 'assembleLinepuppyRelease'...               
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 8428 bytes (99.5% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Running Gradle task 'assembleLinepuppyRelease'...                  68.8s
+✓ Built build/app/outputs/flutter-apk/app-linepuppy-release.apk (43.8MB)

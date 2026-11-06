@@ -1,0 +1,43 @@
+00:00 +0: loading /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart
+00:00 +0: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: save publishes once after persistence and rejects simultaneous duplicate
+00:00 +1: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: save publishes once after persistence and rejects simultaneous duplicate
+00:00 +2: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: save publishes once after persistence and rejects simultaneous duplicate
+00:00 +3: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: save publishes once after persistence and rejects simultaneous duplicate
+00:00 +4: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: save publishes once after persistence and rejects simultaneous duplicate
+00:00 +5: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: save publishes once after persistence and rejects simultaneous duplicate
+00:00 +6: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: save publishes once after persistence and rejects simultaneous duplicate
+00:00 +7: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database First launch is empty with seven default categories
+00:00 +8: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database First launch is empty with seven default categories
+00:00 +9: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/controller_test.dart: export supplies actual portable ZIP and cancelled writes do not succeed
+00:00 +10: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database Create, historical edit, refund and delete update real totals
+00:00 +11: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database Restart preserves entries, categories and settings
+00:00 +12: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database Deactivation preserves references; invalid and duplicate categories rejected
+00:00 +13: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database Snapshot pre-validation leaves the original ledger untouched
+00:00 +14: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database SQLite failure after deletes rolls back the entire restore
+00:00 +15: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/core_test.dart: SQLite isolated database Valid full restore replaces all data and settings atomically
+00:00 +16: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: portable ZIP round trip restores full ledger and exact picture after reopen
+00:00 +17: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: default-image backup restores without requiring an old phone file
+00:00 +18: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: corrupt ZIP leaves every original row and image untouched
+00:00 +19: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects missing required entries before touching current ledger
+00:00 +20: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects unsupported version before touching current ledger
+00:00 +21: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects bad date before touching current ledger
+00:00 +22: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects negative cents before touching current ledger
+00:00 +23: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects floating amount before touching current ledger
+00:00 +24: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects unknown category before touching current ledger
+00:00 +25: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects duplicate IDs before touching current ledger
+00:00 +26: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects unknown kind before touching current ledger
+00:00 +27: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects missing ledger name before touching current ledger
+00:00 +28: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects absolute image path before touching current ledger
+00:00 +29: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: rejects unexpected image reference before touching current ledger
+00:00 +30: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: missing image and archive traversal entry are rejected without extraction
+00:00 +31: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: invalid image fails preparation while original data and image survive
+00:00 +32: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: CRC damage is detected even when JSON still parses
+00:01 +33: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: compressed archive and forged huge size are rejected before decoding
+00:01 +34: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: duplicate ZIP member names are rejected before library deduplication
+00:01 +35: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: direct restore also refuses missing referenced image
+00:01 +36: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/backup_test.dart: database failure rolls back deletes and removes staged picture
+00:01 +37: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/ui_test.dart: (setUpAll)
+00:01 +37: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:04 +38: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/ui_test.dart: 360px large type tabs and keyboard form remain scrollable
+00:05 +39: /workspace/scratch/55345c26cc14/project/puppy_ledger/test/ui_test.dart: (tearDownAll)
+00:05 +39: All tests passed!

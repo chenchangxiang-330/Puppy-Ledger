@@ -1,0 +1,13 @@
+{
+  "system_share": "mResumedActivity: ActivityRecord{768a24c u0 android/com.android.internal.app.ChooserActivity t14}",
+  "system_document_picker": "mResumedActivity: ActivityRecord{5f81064 u0 com.google.android.documentsui/com.android.documentsui.picker.PickActivity t14}",
+  "saved_file": "/sdcard/Download/小狗账本-2026-11-06.png",
+  "stock_launcher_picker": [
+    "快捷记账",
+    "收支概览",
+    "记账日历"
+  ],
+  "cross_month_with_flutter_closed": true,
+  "cross_month_method": "通过 Android AlarmManager 调整模拟器日期至下月 1 日，保持测试宿主前台，未重新打开账本。",
+  "stock_launcher_placed": "已拖入系统 Pixel Launcher 桌面并显示今日收入、今日支出和本月结余"
+}

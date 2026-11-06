@@ -1,0 +1,7 @@
+flutter --no-version-check build apk --debug --flavor linepuppy --target-platform android-arm64 --no-pub
+[        ] [        ] exiting with code 0
+[        ] BUILD SUCCESSFUL in 7m 27s
+[        ] 113 actionable tasks: 112 executed, 1 up-to-date
+[ +634 ms] ✓ Built build/app/outputs/flutter-apk/app-linepuppy-debug.apk
+[   +1 ms] exiting with code 0
+zipalign -c -P 16 4: exit 0

@@ -1,0 +1,16 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/test/widget_links_test.dart
+00:00 +0: <workspace>/project/puppy_ledger/test/widget_links_test.dart: (setUpAll)
+00:00 +0: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:00 +1: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:03 +2: <workspace>/project/puppy_ledger/test/widget_links_test.dart: cold shortcut selects actual enabled expense category; stale shortcut allows choosing again
+00:03 +3: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:04 +4: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:04 +5: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:04 +6: <workspace>/project/puppy_ledger/test/interaction_test.dart: undo entrance disappears after five seconds without resurrecting data
+00:04 +7: <workspace>/project/puppy_ledger/test/widget_links_test.dart: warm calendar opens immediately from a clean form and asks before dropping a draft
+00:05 +8: <workspace>/project/puppy_ledger/test/interaction_test.dart: swipe edit returns same id, updates actual totals and celebrates after save
+00:05 +9: <workspace>/project/puppy_ledger/test/interaction_test.dart: month gesture is local and synchronizes home and statistics
+00:05 +10: <workspace>/project/puppy_ledger/test/interaction_test.dart: actual write failure preserves form, no celebration, retry saves once and selects saved day
+00:06 +11: <workspace>/project/puppy_ledger/test/interaction_test.dart: 320px 2x text, reduced motion and app lifecycle do not overflow or leave active effects
+00:07 +12: <workspace>/project/puppy_ledger/test/interaction_test.dart: press feedback keeps a full hit area and returns after pointer cancel
+00:07 +13: All tests passed!

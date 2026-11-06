@@ -1,0 +1,48 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/test/occurred_time_test.dart
+00:00 +0: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: (setUpAll)
+00:00 +0: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: schema 2, old ZIP, midnight, editing, undo, restart and v3 ZIP
+00:00 +1: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +2: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +2: <workspace>/project/puppy_ledger/test/income_migration_test.dart: failure after old tables are dropped rolls back schema, rows and user_version; retry works
+error SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, index entries_date already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX entries_date ON entries(date), parameters: }) DatabaseException(SqliteException(1): while executing, index entries_date already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX entries_date ON entries(date), parameters: ) sql 'CREATE INDEX entries_date ON entries(date)' {details: {database: {path: /tmp/puppy_v2_RWBJDK/failure.db, id: 5, readOnly: false, singleInstance: true}}} during open, closing...
+00:00 +3: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +4: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +5: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +6: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +7: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +8: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +9: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +10: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +11: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +12: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +13: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +14: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +15: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:00 +16: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +17: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +18: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +19: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +20: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +21: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +22: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +23: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +24: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +25: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +26: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +27: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +28: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +29: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +30: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +31: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:01 +32: <workspace>/project/puppy_ledger/test/occurred_time_test.dart: selected day opens entry with local time; hourly drill-down aggregates separate kinds
+00:03 +33: <workspace>/project/puppy_ledger/test/interaction_test.dart: three dog interactions, rapid taps, bubble expiry and page exit
+00:03 +34: <workspace>/project/puppy_ledger/test/interaction_test.dart: swipe opens only one row, vertical scrolling does not open actions, delete undo restores exact row
+00:04 +35: <workspace>/project/puppy_ledger/test/interaction_test.dart: undo entrance disappears after five seconds without resurrecting data
+00:04 +36: <workspace>/project/puppy_ledger/test/interaction_test.dart: swipe edit returns same id, updates actual totals and celebrates after save
+00:05 +37: <workspace>/project/puppy_ledger/test/interaction_test.dart: month gesture is local and synchronizes home and statistics
+00:06 +38: <workspace>/project/puppy_ledger/test/interaction_test.dart: actual write failure preserves form, no celebration, retry saves once and selects saved day
+00:07 +39: <workspace>/project/puppy_ledger/test/interaction_test.dart: 320px 2x text, reduced motion and app lifecycle do not overflow or leave active effects
+00:07 +40: <workspace>/project/puppy_ledger/test/interaction_test.dart: press feedback keeps a full hit area and returns after pointer cancel
+00:07 +41: All tests passed!

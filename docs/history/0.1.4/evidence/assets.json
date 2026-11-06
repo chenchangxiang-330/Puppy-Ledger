@@ -1,0 +1,14 @@
+{
+  "puppy_sage.png": "unchanged from 0.1.3 and packaged exactly",
+  "puppy_peach.png": "unchanged from 0.1.3 and packaged exactly",
+  "puppy_pair.png": "unchanged from 0.1.3 and packaged exactly",
+  "uploaded_icon_source": "byte-identical to attached third item",
+  "pubspec.lock": "unchanged",
+  "packaged_user_icon": [
+    "res/o-.png"
+  ],
+  "apk_crc": "pass",
+  "abis": [
+    "arm64-v8a"
+  ]
+}

@@ -1,0 +1,82 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/test/ui_test.dart
+00:00 +0: <workspace>/project/puppy_ledger/test/ui_test.dart: (setUpAll)
+00:00 +0: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:00 +1: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:00 +2: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:00 +3: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +4: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +5: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +6: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +7: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +7: <workspace>/project/puppy_ledger/test/income_migration_test.dart: failure after old tables are dropped rolls back schema, rows and user_version; retry works
+error SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, index entries_date already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX entries_date ON entries(date), parameters: }) DatabaseException(SqliteException(1): while executing, index entries_date already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX entries_date ON entries(date), parameters: ) sql 'CREATE INDEX entries_date ON entries(date)' {details: {database: {path: /tmp/puppy_v2_PMSIPN/failure.db, id: 5, readOnly: false, singleInstance: true}}} during open, closing...
+00:01 +8: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +9: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +10: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +11: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +12: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +13: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:01 +14: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +15: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +16: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +17: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +18: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +19: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +20: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +21: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +22: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +23: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:02 +24: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +25: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +26: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +27: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +28: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +29: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +30: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:04 +31: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:04 +32: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:04 +33: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:04 +34: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:04 +35: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +36: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +37: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +38: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +39: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +40: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +41: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +42: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +43: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +44: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +45: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +46: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +47: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +48: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +49: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +50: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +51: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +52: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +53: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +54: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +55: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:06 +56: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +57: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +58: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:08 +59: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:09 +60: <workspace>/project/puppy_ledger/test/interaction_test.dart: three dog interactions, rapid taps, bubble expiry and page exit
+00:09 +61: <workspace>/project/puppy_ledger/test/income_ui_test.dart: type switches keep fields and reset category; save updates monthly totals with assigned dog
+00:10 +62: <workspace>/project/puppy_ledger/test/income_ui_test.dart: type switches keep fields and reset category; save updates monthly totals with assigned dog
+00:10 +63: <workspace>/project/puppy_ledger/test/income_ui_test.dart: type switches keep fields and reset category; save updates monthly totals with assigned dog
+00:11 +64: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:11 +65: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:12 +66: <workspace>/project/puppy_ledger/test/income_ui_test.dart: daily filter never changes monthly 100 income, 100 expense, zero balance; stats match
+00:12 +67: <workspace>/project/puppy_ledger/test/interaction_test.dart: month gesture is local and synchronizes home and statistics
+00:12 +68: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: floating entry button leaves the rest of its row scrollable and photo controls are absent
+00:12 +69: <workspace>/project/puppy_ledger/test/income_ui_test.dart: exchange roles immediately updates forms and success for all themes, preserving rows
+00:13 +70: <workspace>/project/puppy_ledger/test/income_ui_test.dart: exchange roles immediately updates forms and success for all themes, preserving rows
+00:13 +71: <workspace>/project/puppy_ledger/test/income_ui_test.dart: exchange roles immediately updates forms and success for all themes, preserving rows
+00:13 +72: <workspace>/project/puppy_ledger/test/income_ui_test.dart: exchange roles immediately updates forms and success for all themes, preserving rows
+00:14 +73: <workspace>/project/puppy_ledger/test/income_ui_test.dart: 320px 2x type: income, roles, category manager and statistics remain usable
+00:15 +74: <workspace>/project/puppy_ledger/test/income_ui_test.dart: (tearDownAll)
+00:15 +74: All tests passed!

@@ -1,0 +1,19 @@
+{
+  "install": "Performing Streamed Install\nSuccess",
+  "upgraded_legacy": "old-date-only|旧版只有日期|1",
+  "device_date": "2026-11-06",
+  "bound_three_types": true,
+  "overview_100_34_66": true,
+  "before_quick_pid": "",
+  "cold_quick_form": true,
+  "quick_food_node": [
+    [
+      "餐饮",
+      "true",
+      "false"
+    ]
+  ],
+  "saved_without_category_tap": "default-1",
+  "auto_refresh_after_save": true,
+  "calendar_opened": "2026-11-01"
+}

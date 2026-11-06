@@ -1,0 +1,6 @@
+00:00 +0: loading /workspace/scratch/55345c26cc14/project/puppy_ledger/test/ui_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +1: 360px large type tabs and keyboard form remain scrollable
+00:04 +2: (tearDownAll)
+00:04 +2: All tests passed!

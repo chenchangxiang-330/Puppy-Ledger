@@ -1,0 +1,47 @@
+小狗账本 Android 构建核验
+日期：2026-11-03
+
+实际执行：flutter --no-version-check build apk --debug --target-platform android-arm64 --verbose
+环境：Flutter3.47.9 / Dart3.13.7 / TemurinJDK21.0.13 / SDK36 / Gradle9.3.1
+任务内 SDK/JDK 与隔离配置详见 ../TOOLCHAIN.md。
+
+[        ] exiting with code 0
+BUILD SUCCESSFUL in 22s
+146 actionable tasks: 16 executed, 130 up-to-date
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+"flutter apk" took 24,116ms.
+exiting with code 0
+
+文件：puppy_ledger-0.1.0-debug-arm64.apk
+大小：84735449 bytes（80.81 MiB）
+SHA-256：7675c3d1c2cf28f9d868da30ca0d593b2027cbfee199f36ef5d51321985271a4
+
+实际执行 apksigner verify --verbose --print-certs（exit0）：
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: d9ff9c6f63a4444f1cc4c74189ef08d84ef441d7d3da9a6533d217f8e103a01b
+Signer #1 certificate SHA-1 digest: 7626ed3135f8109e5a0445e37bb8ddc5fa2b5403
+Signer #1 certificate MD5 digest: 1352333129d2b8fd04b3ee906e66a86b
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 1d06384c59840e0ab7dd4a49a992ece95da4f4bf12fcdbe9770b67e6b1edd377
+Signer #1 public key SHA-1 digest: 686633fd6953ca4415eecff350b20962f59d2b64
+Signer #1 public key MD5 digest: dcfa92e49ed64ab4a16507fe115c1eb2
+
+实际执行 aapt2 dump badging（exit0，选录）：
+package: name='com.example.puppy_ledger' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+minSdkVersion:'24'
+targetSdkVersion:'36'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='com.example.puppy_ledger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'小狗账本'
+native-code: 'arm64-v8a'
+
+上述核验只证明构建、签名和APK元数据；安装、启动与真机体验的状态见主验证报告。

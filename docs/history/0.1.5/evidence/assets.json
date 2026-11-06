@@ -1,0 +1,37 @@
+{
+  "changed_app_source_files": [
+    "lib/ui/startup_welcome.dart"
+  ],
+  "unchanged_assets_and_configuration": [
+    {
+      "path": "assets/illustrations/puppy_sage.png",
+      "sha256": "adf0904ef2b86e64ac3c0f0519c41ac9d3e7e7c9ba3042f5e12f54451beb50e9",
+      "unchanged_from_014": true
+    },
+    {
+      "path": "assets/illustrations/puppy_peach.png",
+      "sha256": "a9b2e5825fc95066e339d4b950b465fd12674c9a96cf4607fd72ed4666aa65e1",
+      "unchanged_from_014": true
+    },
+    {
+      "path": "assets/illustrations/puppy_pair.png",
+      "sha256": "aa47429c79f0b0619105c56dcd1944be990e35c9a1502ebdfc9f37cbc03e09d6",
+      "unchanged_from_014": true
+    },
+    {
+      "path": "assets/branding/launcher_original.png",
+      "sha256": "4dedeb4bb37e05de2df438a4a75a5f8838cde360f46894acc34ae71722d83c16",
+      "unchanged_from_014": true
+    },
+    {
+      "path": "pubspec.lock",
+      "sha256": "c676bc8fc18ee2a900c59a4ffc430c011c47af80f028ecedc367ac01d546bdbd",
+      "unchanged_from_014": true
+    },
+    {
+      "path": "android/app/build.gradle.kts",
+      "sha256": "c54977daeb398d97f414b1b200523f04c46aed340f0b2b0dcbdf94bf1bf91795",
+      "unchanged_from_014": true
+    }
+  ]
+}

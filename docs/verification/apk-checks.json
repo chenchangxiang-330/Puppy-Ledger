@@ -1,0 +1,8 @@
+{
+  "bytes": 87439551,
+  "sha256": "9d39c61e80bfca52bee43740653a5dcfb9de3b532c61f0818f83a3deb5dcb79b",
+  "matches_0_1_1_signer": true,
+  "certificate_sha256": "bcc788fa8c54ea40584ea8a98b6eb9667e57e5e6c36a69ee4748f705663ee278",
+  "all_three_assets_match": true,
+  "zip_crc": "passed"
+}

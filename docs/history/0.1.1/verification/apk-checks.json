@@ -1,0 +1,9 @@
+{
+  "bytes": 85711256,
+  "sha256": "9199b9b57d9943d5feb69a620b666534113c436335712d2efce6da38b1c64548",
+  "abis": [
+    "arm64-v8a"
+  ],
+  "artwork_byte_match": true,
+  "zip_crc": "passed"
+}

@@ -1,0 +1,1 @@
+<resources><dimen name="widget_corner">20dp</dimen><string name="widget_quick">快捷记账</string><string name="widget_overview">收支概览</string><string name="widget_calendar">记账日历</string><string name="widget_quick_desc">从常用支出分类直接记一笔</string><string name="widget_overview_desc">今日收支和本月结余</string><string name="widget_calendar_desc">点击日期查看每日明细</string></resources>

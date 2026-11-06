@@ -1,0 +1,9 @@
+Byte-for-byte unchanged from uploaded 0.1.0 source:
+pubspec.lock
+lib/core/store.dart
+lib/core/backup.dart
+lib/core/zip_guard.dart
+lib/core/logic.dart
+Formatting only (verified with unified diff):
+lib/core/controller.dart
+Only File(...).readAsBytes() line wrapping changed; no logic changes.

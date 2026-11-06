@@ -1,0 +1,3 @@
+adb devices: no connected devices.
+No Android device or emulator was available.
+Video captured from Flutter widget test rendering, not Android screen recording.

@@ -1,0 +1,15 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/test/continuous_shapes_test.dart
+00:00 +0: <workspace>/project/puppy_ledger/test/continuous_shapes_test.dart: card material clips pressed ink at its continuous contour in all three colors
+00:00 +1: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +2: <workspace>/project/puppy_ledger/test/ui_test.dart: empty ledger, invalid amount, actual form save and refreshed total
+00:03 +3: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +4: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +5: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:04 +6: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +7: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:05 +8: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: dog taps change only the companion region, never the whole screen
+00:06 +9: <workspace>/project/puppy_ledger/test/daily_views_test.dart: three themes share the data; a long month scrolls to the last day including empty income slots
+00:06 +10: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:06 +11: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: theme selection keeps layout stable with no progress-row flash or white frame
+00:09 +12: <workspace>/project/puppy_ledger/test/flash_regression_test.dart: floating entry button leaves the rest of its row scrollable and photo controls are absent
+00:09 +13: All tests passed!

@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Flutter Debug VM service only. App business features have no network dependency. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

@@ -1,0 +1,6 @@
+<workspace>/logs/v019/old-ledger.db: 1 file pushed, 0 skipped. 74.9 MB/s (36864 bytes in 0.000s)
+SELinux: Loaded file_contexts
+2
+old-date-only|旧版只有日期
+    versionCode=9 minSdk=24 targetSdk=36
+    versionName=0.1.8

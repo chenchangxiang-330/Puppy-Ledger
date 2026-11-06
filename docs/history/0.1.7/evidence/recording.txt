@@ -1,0 +1,3 @@
+00:00 +0: loading <workspace>/project/puppy_ledger/tool/motion_recording_test.dart
+00:00 +0: record actual press, dog, save, swipe, undo and theme frames
+00:58 +1: All tests passed!
